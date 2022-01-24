@@ -1,4 +1,6 @@
 import React from "react";
+import Header from "./Header";
+import Content from "./Content";
 
 const App = () => {
   const course = "Half Stack application development";
@@ -11,10 +13,8 @@ const App = () => {
 
   return (
     <div>
-      <h1>{course}</h1>
-      <p>
-        {part1} {exercises1}
-      </p>
+      <Header course={course} />
+      <Content part1={part1} exercises1={exercises1}/> 
       <p>
         {part2} {exercises2}
       </p>
