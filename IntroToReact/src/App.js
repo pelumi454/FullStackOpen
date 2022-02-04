@@ -32,9 +32,7 @@ const App = () => {
     <div>
       <Header course={course} />
       <Content parts={parts} />
-      {/* <Content part2={part2} exercises2={exercises2} />
-      <Content part3={part3} exercises3={exercises3} />
-      <Total total={exercises1 + exercises2 + exercises3}/> */}
+      <Total parts={parts} />
     </div>
   );
 };
