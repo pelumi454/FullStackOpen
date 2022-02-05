@@ -9,9 +9,6 @@ function Content({ part1, exercises1, part2, exercises2, part3, exercises3}) {
       <div>
         <h5>{part2}</h5>
       </div>
-      <div>
-        <h5>{part3}</h5>
-      </div>
     </div>
   );
 }
