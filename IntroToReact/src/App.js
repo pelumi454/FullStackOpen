@@ -20,10 +20,12 @@ const App = () => {
     },
   ];
 
+  const listItems = parts.map((d) => <li key={d.name}>{d.name}</li>);
+
   return (
     <div>
       <Header course={course} />
-      <Content parts={name} />
+      <Content listItems={listItems} />
       <Total parts={parts} />
     </div>
   );
