@@ -1,4 +1,4 @@
-const App = () => {
+const ChangeState = () => {
   const [clicks, setClicks] = useState({
     left: 0,
     right: 0,
