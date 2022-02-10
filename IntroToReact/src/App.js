@@ -20,15 +20,19 @@ const App = () => {
     },
   ];
 
-  const listItems = parts.map((d) => <li key={d.name}>{d.name}</li>);
-
-  return (
-    <div>
-      <Header course={course} />
-      {listItems} 
-      <Total parts={parts} />
-    </div>
-  );
-};
+ return (
+   <div>
+     <Header course={course} />
+     {parts.map((d) => {
+       return (
+       <div>
+         <li key={d.exercises}>{d.name}</li>
+         <li key={d.exercises}>{d.exercises}</li>
+         </div>
+       )
+     })}
+   </div>
+ );
+}
 
 export default App;
