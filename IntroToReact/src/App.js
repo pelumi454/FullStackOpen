@@ -9,17 +9,14 @@ const App = () => {
     {
       name: "Fundamentals of React",
       exercises: 10,
-      age: "34",
     },
     {
       name: "Using props to pass data",
       exercises: 7,
-      age: "34",
     },
     {
       name: "State of a component",
       exercises: 14,
-      age: "34",
     },
   ];
 
